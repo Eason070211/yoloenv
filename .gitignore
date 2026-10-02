@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+
+# Models / weights (export via export_model.py, too large for git)
+models/
+yolo11n.pt
+yolo11n.onnx
+
+# Qwen3-ASR lives in its own repository (E:\YOLO\qwen3-asr)
+qwen3-asr/
+
+# Ultralytics local settings
+Ultralytics/
+
+# Cache & temp
+.tmp/
+*.log
+
+# Misc
+get-pip.py
+.DS_Store
+Thumbs.db
